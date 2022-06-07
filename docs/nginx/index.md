@@ -1,3 +1,7 @@
+---
+title: nginx
+---
+
 [Install Nginx Webserver](https://bitfexl.github.io/piadmin/nginx)
 
 <br>
