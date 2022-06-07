@@ -12,7 +12,7 @@
 > -   [SSL and TLS SNI support](https://nginx.org/en/docs/http/ngx_http_ssl_module.html)
 
 **For short:**
-Nginx is a Webserver which can serve static files (html files, images, css files, js files, ...) and it can do that via https (as any website should do). It can also act as an [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy) distributing requests between different webservers.
+Nginx is a webserver which can serve static files (html files, images, css files, js files, ...) and it can do that via https (as any website should do). It can also act as an [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy) distributing requests between different webservers.
 
 ## Install
 
@@ -23,4 +23,4 @@ sudo apt install nginx -y
 
 Typing the ip address of the Raspberry into the address bar of your browser should now display something like this:
 
-![Welcome to nginx!](welcomeToNginx.png | width=300)
+<img src="welcomeToNginx.png" alt="Welcome to nginx!" width="450" />
