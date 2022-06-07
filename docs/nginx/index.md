@@ -41,7 +41,7 @@ Typing the ip address of the Raspberry into the address bar of your browser shou
 
 Most likely something is "blocking" the port 80 on your raspberry (an other webserver like [apache](https://httpd.apache.org/) for example).
 
-You can find out what by typing `sudo lsof -i`. Command is the program using this port and PID the process id of the program. End that program by typing `sudo kill PID`. Then nginx can be started with `sudo service nginx start`.
+You can find out what by typing `sudo lsof -i :80`. Command is the program using this port and PID the process id of the program. End that program by typing `sudo kill PID`. Then nginx can be started with `sudo service nginx start`.
 
 <br>
 
